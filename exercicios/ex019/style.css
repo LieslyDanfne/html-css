@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(106, 250, 106);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(1, 49, 1);
+}
+
+h2{
+    color: rgb(10, 165, 10);
+}
+
+#principal{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+.paragrafo{
+    font-weight: bolder;
+    color: rgb(255, 4, 4);
+    background-color: rgb(255, 255, 255);
+}
+
+.subtitulo{
+    background-color: rgb(177, 255, 177);
+}

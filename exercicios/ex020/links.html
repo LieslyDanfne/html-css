@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:visited{
+            color: rgb(255, 0, 0);
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: rgb(0, 43, 233);
+        }
+
+        a:active{
+            color: rgb(220, 255, 23);
+        }
+
+        /*BEFORE = ANTES*/
+        a::before{
+            content: '⇒';
+        }
+
+        /*AFTER = DEPOIS*/
+        a::after{
+            content: '⇐';
+        }
+    </style>
+</head>
+<body>
+    <h1>Persnalizando links</h1>
+    <h2>Pseudo-Elementos</h2>
+    <p>Para uasar o Pseudo-Elementos basta usar <strong>"::"</strong> depois da tag, como no exemplod codigo acima.</p>
+    <ul>
+        <li ><a href="https://gustavoguanabara.github.io" target="_blank">Repositorio GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/">Canal YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com">Site do CursoemVideo</a></li>
+    </ul>
+</body>
+</html>
